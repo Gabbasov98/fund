@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-sizing: border-box; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0,inherit;
+  list-style: none; }
+
+img {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 768px;
+  padding: 0 50px;
+  margin: 0 auto;
+  position: relative; }
+
+.login {
+  background-image: url(../images/loginbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 316px; }
+  .login__form {
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #DBDFE6;
+    box-sizing: border-box;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 40px 35px;
+    width: 376px; }
+  .login__form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #353741; }
+  .login__form input {
+    width: 100%;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; }
+  .login__form-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #353741;
+    margin-bottom: 25px; }
+  .login__form-question {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #80CBA3;
+    margin-top: 20px; }
+  .login__form-recovery {
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    color: #CACACA;
+    display: block;
+    margin-top: 2px; }
+  .login__form-btn {
+    background: #80CBA3;
+    border-radius: 4px;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px; }
+
+.login1024__form {
+  display: none; }
+
+@media (min-width: 834px) {
+  .container {
+    width: 834px; } }
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding: 0;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between; }
+
+  .login__form {
+    display: none; }
+
+  .header,
+  .login {
+    width: 50%;
+    text-align: center; }
+
+  .header__inner {
+    display: table-cell;
+    vertical-align: middle; }
+
+  .header {
+    display: table;
+    height: 100vh; }
+
+  .login1024__form {
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #DBDFE6;
+    box-sizing: border-box;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 40px 35px;
+    width: 376px;
+    display: block; }
+  .login1024__form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #353741;
+    text-align: left; }
+  .login1024__form input {
+    width: 100%;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; }
+  .login1024__form-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #353741;
+    margin-bottom: 25px; }
+  .login1024__form-question {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #80CBA3;
+    margin-top: 20px; }
+  .login1024__form-recovery {
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    color: #CACACA;
+    display: block;
+    margin-top: 2px; }
+  .login1024__form-btn {
+    background: #80CBA3;
+    border-radius: 4px;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px; } }
+@media (min-width: 1360px) {
+  .container {
+    width: 1360px; } }
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px; } }
+@media (min-width: 1600px) {
+  .container {
+    width: 1600px; } }
+@media (min-width: 1920px) {
+  .container {
+    width: 1600px; } }
+
+/*# sourceMappingURL=style.css.map */
